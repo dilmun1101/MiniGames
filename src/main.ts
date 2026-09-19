@@ -1,1 +1,1 @@
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = ``;
+import './app/index';
