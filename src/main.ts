@@ -1,1 +1,3 @@
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = ``;
+const app = document.createElement('div');
+app.id = 'app';
+document.body.append(app);
